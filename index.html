@@ -6,45 +6,56 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
-<nav class="nav has-shadow is-dark">
+<nav class="nav has-shadow">
 	<div class="container">
 	<div class="nav-left">
 		<a class="nav-item is-logo">Goka</a>	
+		<a class="nav-item is-tab is-hidden-mobile is-active">Home</a>
 	</div>
 	<div class="nav-center">
-		<a class="nav-item">
+		<a class="nav-item" target="_blank" href="https://github.com/tastelessjolt/">
 	      <span class="icon">
 	        <i class="fa white fa-github"></i>
 	      </span>
 	    </a>
-	    <a class="nav-item">
+	    <a class="nav-item" target="_blank" href="https://www.facebook.com/harshithgoka">
 	      <span class="icon">
 	        <i class="fa fa-facebook"></i>
 	      </span>
 	    </a>
-	    <a class="nav-item">
+	    <a class="nav-item" target="_blank" href="https://www.instagram.com/ignifies/">
 	      <span class="icon">
 	        <i class="fa fa-instagram"></i>
 	      </span>
 	    </a>
   	</div>
-	<div class="nav-right">
-		<a class="nav-item">Home</a>
-	</div>
+	<div class="nav-right mobile nav-menu">
+      <a class="nav-item is-flex-tab is-hidden-tablet is-active">Home</a>
+      <a class="nav-item is-flex-tab is-hidden-tablet">Features</a>
+      <a class="nav-item is-flex-tab is-hidden-tablet">Pricing</a>
+      <a class="nav-item is-flex-tab is-hidden-tablet">About</a>
+    </div>
 	</div>
 </nav>
 
-<section class="hero is-dark is-bold is-fullheight">
+<section class="hero is-primary is-bold is-fullheight">
+  <div class="container">
+    <div class="notification is-primary">
+      <button class="delete"></button>
+      You are at my homepage. You can know all kinds of things
+      about me here.
+    </div>
+   </div>
   <div class="hero-body">
-    <div class="container">
+    <div class="container">	
       <div class="columns">
       	<div class="column is-6">
-      		<h1 class="title is-big has-text-right">
+      		<!-- <img src="dp.jpg"> -->
+      	</div>
+      	<div class="column is-6">
+      		<h1 class="title is-big ">
       		  Harshith<br>Goka
       		</h1>
-      	</div>
-      	<div class="column has-text-centered">
-      		<img src="images/to-be-dp.png" class="circle">
       	</div>
       </div>
     </div>
