@@ -24,7 +24,8 @@ $('.delete').click(function() {
     $(this).parent().detach();
   });
 
-  $('.get').click(function() {
+  $('a.get').click(function(event) {
+    event.preventDefault();
     var name = $(this).text().toLowerCase();
     if(name == 'home') { name = 'index'; }
     jQuery.ajax('http://harshithgoka.me/' + name).done(function(data) {
