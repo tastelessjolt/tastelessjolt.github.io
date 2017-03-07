@@ -1,5 +1,11 @@
 $(document).ready(function() {
-  console.log(this);
+  var arr = $(location).attr('href').split('/');
+  // console.log(arr[arr.length - 1].split('.')[0]);
+  var name = arr[arr.length - 1].split('.')[0];
+  jQuery.ajax('http://harshithgoka.me/' + name).done(function(data) {
+      $('.hero-body').replaceWith($(data));
+      console.log();
+    });
   var $toggle = $('#nav-toggle');
   var $menu = $('#nav-menu');
 
