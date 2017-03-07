@@ -1,7 +1,12 @@
 $(document).ready(function() {
   var arr = $(location).attr('href').split('/');
   // console.log(arr[arr.length - 1].split('.')[0]);
-  var name = arr[arr.length - 1].split('.')[0];
+  var ending = arr[arr.length - 1];
+  
+  var name = ending.split('.')[0];
+  if(ending == 'harshithgoka.me' || ending == '') {
+    name = 'index';
+  }
   jQuery.ajax('http://harshithgoka.me/' + name).done(function(data) {
       $('.hero-body').replaceWith($(data));
       console.log();
