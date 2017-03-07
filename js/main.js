@@ -1,5 +1,12 @@
 $(document).ready(function() {
-  console.log(self);
+  console.log(this);
+  var $toggle = $('#nav-toggle');
+  var $menu = $('#nav-menu');
+
+  $toggle.click(function() {
+    $(this).toggleClass('is-active');
+    $menu.toggleClass('is-active');
+  });
 });
 
 $('.delete').click(function() {
