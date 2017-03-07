@@ -27,8 +27,8 @@ $('.delete').click(function() {
   $('.get').click(function() {
     var name = $(this).text().toLowerCase();
     if(name == 'home') { name = 'index'; }
-    jQuery.ajax('http://harshithgoka.me/' + name + '.html').done(function(data) {
-      $('.hero-body').replaceWith($(data).find('.hero-body'));
+    jQuery.ajax('http://harshithgoka.me/' + name).done(function(data) {
+      $('.hero-body').replaceWith($(data));
       console.log();
     });
 
