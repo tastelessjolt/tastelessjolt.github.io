@@ -21,19 +21,19 @@ $(document).ready(function() {
 });
 
 $('.delete').click(function() {
-    $(this).parent().detach();
+  $(this).parent().detach();
+});
+
+$('a.get').click(function(event) {
+  event.preventDefault();
+  var name = $(this).text().toLowerCase();
+  if(name == 'home') { name = 'index'; }
+  jQuery.ajax('http://harshithgoka.me/' + name + ".part").done(function(data) {
+    $('.hero-body').replaceWith($(data));
+    console.log();
   });
 
-  $('a.get').click(function(event) {
-    event.preventDefault();
-    var name = $(this).text().toLowerCase();
-    if(name == 'home') { name = 'index'; }
-    jQuery.ajax('http://harshithgoka.me/' + name).done(function(data) {
-      $('.hero-body').replaceWith($(data));
-      console.log();
-    });
+  $('.is-active').removeClass('is-active');
+  $(this).addClass('is-active');
 
-    $('.is-active').removeClass('is-active');
-    $(this).addClass('is-active');
-
-  });
+});
