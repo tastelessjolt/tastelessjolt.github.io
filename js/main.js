@@ -7,7 +7,7 @@ $(document).ready(function() {
   if(ending == 'harshithgoka.me' || ending == '') {
     name = 'index';
   }
-  jQuery.ajax('http://harshithgoka.me/' + name + ".part").done(function(data) {
+  jQuery.ajax(name + ".part").done(function(data) {
       $('.hero-body').replaceWith($(data));
       console.log();
     });
@@ -28,7 +28,7 @@ $('a.get').click(function(event) {
   event.preventDefault();
   var name = $(this).text().toLowerCase();
   if(name == 'home') { name = 'index'; }
-  jQuery.ajax('http://harshithgoka.me/' + name + ".part").done(function(data) {
+  jQuery.ajax( name + ".part").done(function(data) {
     $('.hero-body').replaceWith($(data));
     console.log();
   });
