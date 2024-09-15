@@ -1,0 +1,63 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/inter-ui/4.0.2/inter-display.min.css');
+@import 'fontawesome.min.css';
+@import 'brands.min.css';
+
+* {
+  font-family: 'InterDisplay', sans-serif;
+  margin: 0;
+  padding: 0;
+  word-break: keep-all;
+  font-feature-settings: normal;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: auto;
+  padding: 20px 30px 50px 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-container {
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+#top-container {
+  position: fixed;
+  padding-bottom: 5px;
+  z-index: 999;
+}
+
+#top-container h1 {
+  font-size: 28px;
+  display: inline;
+  font-weight: 700;
+}
+
+#top-container small {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#top-container .logo-link span {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#top-container .logo-link:hover,
+#top-container .logo-link:focus {
+  color: white;
+  text-shadow: 1px 1px 0 #3f679b, -1px 1px 0 #3f679b, -1px -1px 0 #3f679b, 1px -1px 0 #3f679b;
+}
+
+#top-container .info-link:hover,
+#top-container .info-link:focus {
+  color: white;
+  background-color: #3f679b;
+}
