@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/harshithg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://harshithgoka.me
+  * I am harshithg (https://keybase.io/harshithg) on keybase.
+  * I have a public key ASBFkWHP60_OJuOZppblsSP6aHWtH3PoxzSNENCSEZZtCAo
+
+To do so, I am signing this object:
+
+{
+    body: {
+        key: {
+            eldest_kid: 01014832550a87a6df060a3166ebba9c23258954db6c5c1515493ab940a1b62c0b270a,
+            host: keybase.io,
+            kid: 0120459161cfeb4fce26e399a696e5b123fa6875ad1f73e8c7348d10d09211966d080a,
+            uid: a6eacf23a1d6591c17b98551eeb87219,
+            username: harshithg
+        },
+        service: {
+            hostname: harshithgoka.me,
+            protocol: http:
+        },
+        type: web_service_binding,
+        version: 1
+    },
+    client: {
+        name: keybase.io go client,
+        version: 1.0.18
+    },
+    ctime: 1486338427,
+    expire_in: 504576000,
+    merkle_root: {
+        ctime: 1486338387,
+        hash: 3f11626f7778d51782522c229b96b4093592a888b97fc2105655e39fbd58cb6c4c384cb03a58adb9f49220ddcaa519b9499a24bea4aa42e64d926338f0ff3a09,
+        seqno: 837121
+    },
+    prev: 70760af4846ba8150b2cdc796dcfc4b5d9afa4e55ca2823cc83534b11ebe8759,
+    seqno: 11,
+    tag: signature
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRZFhz+tPzibjmaaW5bEj+mh1rR9z6Mc0jRDQkhGWbQgKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNDgzMjU1MGE4N2E2ZGYwNjBhMzE2NmViYmE5YzIzMjU4OTU0ZGI2YzVjMTUxNTQ5M2FiOTQwYTFiNjJjMGIyNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDU5MTYxY2ZlYjRmY2UyNmUzOTlhNjk2ZTViMTIzZmE2ODc1YWQxZjczZThjNzM0OGQxMGQwOTIxMTk2NmQwODBhIiwidWlkIjoiYTZlYWNmMjNhMWQ2NTkxYzE3Yjk4NTUxZWViODcyMTkiLCJ1c2VybmFtZSI6ImhhcnNoaXRoZyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaGFyc2hpdGhnb2thLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NjMzODQyNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg2MzM4Mzg3LCJoYXNoIjoiM2YxMTYyNmY3Nzc4ZDUxNzgyNTIyYzIyOWI5NmI0MDkzNTkyYTg4OGI5N2ZjMjEwNTY1NWUzOWZiZDU4Y2I2YzRjMzg0Y2IwM2E1OGFkYjlmNDkyMjBkZGNhYTUxOWI5NDk5YTI0YmVhNGFhNDJlNjRkOTI2MzM4ZjBmZjNhMDkiLCJzZXFubyI6ODM3MTIxfSwicHJldiI6IjcwNzYwYWY0ODQ2YmE4MTUwYjJjZGM3OTZkY2ZjNGI1ZDlhZmE0ZTU1Y2EyODIzY2M4MzUzNGIxMWViZTg3NTkiLCJzZXFubyI6MTEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RArIudC/1emfQZe+2ctpGsvYq5KjmHUnUE3BU97/XXH8E6p23Yyfd555xYF6kbz2Y8WLse3S/ymnSYbv2fJzUzCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILUFPk8tEEbtIY/Jr1MyplJ0cQjKxySuMrIi0pvre/Ljo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/harshithg
+
+==================================================================
+
