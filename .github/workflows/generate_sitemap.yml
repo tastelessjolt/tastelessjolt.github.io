@@ -13,9 +13,9 @@ jobs:
     steps:
     - name: Checkout the repo
       uses: actions/checkout@v4
-      ref: gh-pages
       with:
         fetch-depth: 0 
+        ref: gh-pages
 
     - name: Generate the sitemap
       id: sitemap
