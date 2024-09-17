@@ -2,6 +2,7 @@
 title: "Transformers Get Stable: An End-to-End Signal Propagation Theory for Language Models"
 subtitle: "A Kedia, MA Zaidi, S Khyalia, J Jung, H Goka, H Lee"
 thumbnail: "images/poster.png"
+alt: "Poster for the paper Transformers Get Stable: An End-to-End Signal Propagation Theory for Language Models"
 ---
 
 [[Poster]](https://icml.cc/virtual/2024/poster/35085) [[Code]](https://github.com/akhilkedia/TranformersGetStable) [[Paper]](https://arxiv.org/abs/2403.09635)

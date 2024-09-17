@@ -99,6 +99,7 @@ class WorkPublisher {
         title: metaInfo.getTitle(),
         subtitle: metaInfo.getSubtitle(),
         thumbnail: metaInfo.getThumbnail(),
+        alt: metaInfo.getAlt(),
         content: htmlContent,
       });
 

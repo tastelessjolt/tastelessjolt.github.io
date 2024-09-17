@@ -6,6 +6,8 @@ interface ArticleMetaInfoModel {
   subtitle?: string;
 
   thumbnail: string;
+
+  alt?: string;
 }
 
 export default ArticleMetaInfoModel;

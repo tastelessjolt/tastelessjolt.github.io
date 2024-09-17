@@ -6,6 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name='description' content='All works/projects done by Harshith Goka'>
 
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
   <link rel="preload" href="./styles/works.css" as="style">
@@ -20,7 +21,7 @@
       <% works.reverse().map((work) => { %>
       <a href="./work/<%= work.id %>.html">
         <div class="works-content">
-          <img src="<%= work.thumbnail %>" />
+          <img src="<%= work.thumbnail %>" alt="<%= work.alt %>" />
           <h1><%= work.title %></h1>
         </div>
       </a>

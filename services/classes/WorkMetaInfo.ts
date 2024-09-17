@@ -9,6 +9,8 @@ class WorkMetaInfo implements WorkMetaInfoModel {
 
   thumbnail: string;
 
+  alt?: string;
+
   setMetaInfoProp(name: string, value: any) {
     this[name] = value;
   }
@@ -27,6 +29,10 @@ class WorkMetaInfo implements WorkMetaInfoModel {
 
   getThumbnail(): string {
     return this.thumbnail;
+  }
+
+  getAlt(): string {
+    return this.alt;
   }
 }
 
