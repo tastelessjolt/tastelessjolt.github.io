@@ -65,6 +65,15 @@ if test -f "./CNAME"; then
     echo -e "> Found a CNAME File! Bringing the CNAME over"
     cp -r ./CNAME ${DIST}/CNAME
 fi
+if test -d "./_static"; then
+    echo -e "> Copying all _static content over"
+    cp -r ./_static/* ${DIST}/
+fi
+if test -f "./.github/workflows/generate_sitemap.yml"; then
+    echo -e "> Found a generate_sitemap.yml! Bringing the generate_sitemap.yml over"
+    mkdir -p ${DIST}/.github/workflows/
+    cp -r .github/workflows/generate_sitemap.yml ${DIST}/.github/workflows/generate_sitemap.yml
+fi
 
 echo -e "\n${CYAN}Done!${WHITE}"
 
